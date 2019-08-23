@@ -4,7 +4,7 @@ weight = 1
 pre = "<b>1. </b>"
 +++
 
-# Rainbond文档中心
+# Gitee文档中心
 
 <div class="item">
     <h4><a href="./quick-start/rainbond_overview/">Rainbond简介</a></h4>
