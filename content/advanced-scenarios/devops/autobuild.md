@@ -7,11 +7,11 @@ Weight: 22001
 
 ### 概述
 
-对于从Github、Gitlab、Gogs、Gitee仓库源码构建的应用， `Rainbond` 提供基于WEBHOOKS的自动部署功能。
+对于从Github、Gitlab、Gogs、Gitee仓库源码构建的应用， `Gitee` 提供基于WEBHOOKS的自动部署功能。
 
 ### 实践场景
 
-Rainbond官方文档系统部署在我们的公有云环境中。现在以此场景为例，演示如何实现源码的自动部署。
+Gitee官方文档系统部署在我们的公有云环境中。现在以此场景为例，演示如何实现源码的自动部署。
 
 \- 项目源码地址： [rainbond-docs](https://github.com/goodrain/rainbond-docs)
 

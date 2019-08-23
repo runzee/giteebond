@@ -30,7 +30,7 @@ Hidden: true
 
 ## 滚动升级(RollingUpdate)
 
-Rainbond默认使用[Deployment](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/#use-case)类型来部署Web类应用,  应用升级策略方面采用了滚动升级策略.所谓的滚动升级策略就是采用逐步替换的方式，使用新的实例逐步更新替换旧的实例.好处是不会中断服务，但会导致调用时出现应用版本不一致情况，输出内容不一致。
+Gitee默认使用[Deployment](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/#use-case)类型来部署Web类应用,  应用升级策略方面采用了滚动升级策略.所谓的滚动升级策略就是采用逐步替换的方式，使用新的实例逐步更新替换旧的实例.好处是不会中断服务，但会导致调用时出现应用版本不一致情况，输出内容不一致。
 
 #### 滚动更新策略
 
