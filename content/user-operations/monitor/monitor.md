@@ -9,7 +9,7 @@ hidden: true
 
 #### 概述
 
-本节主要介绍的是Raibond监控体系中对Node机器监控，各服务组件监控及容器监控。监控服务由Rainbond组件`rbd-monitor`完成，在monitor组件中采用Sidecar设计模式思想整合[Prometheus](https://prometheus.io/)服务，并基于ETCD动态发现需要监控的targets，自动配置与管理Prometheus服务。monitor会定期到每个targets刮取指标数据，并将数据持久化在本地，提供灵活的PromQL查询与RESTful API查询。通过[Granfana](https://grafana.com/)将监控数据可视化。在Rainbond资源管理后台与控制台中，基于monitor组件刮取的监控数据对应用与容器实现资源可视化等。monitor组件支持自定义报警规则，对接Alertmanager向用户发送报警信息。
+本节主要介绍的是Gitee监控体系中对Node机器监控，各服务组件监控及容器监控。监控服务由Rainbond组件`rbd-monitor`完成，在monitor组件中采用Sidecar设计模式思想整合[Prometheus](https://prometheus.io/)服务，并基于ETCD动态发现需要监控的targets，自动配置与管理Prometheus服务。monitor会定期到每个targets刮取指标数据，并将数据持久化在本地，提供灵活的PromQL查询与RESTful API查询。通过[Granfana](https://grafana.com/)将监控数据可视化。在Rainbond资源管理后台与控制台中，基于monitor组件刮取的监控数据对应用与容器实现资源可视化等。monitor组件支持自定义报警规则，对接Alertmanager向用户发送报警信息。
 
 当前`rbd-monitor`是冗余的工作模式，即对集群中所有节点的监控数据进行收集，当节点数量或监控数据量庞大时，对监控服务务必带来很大的压力。在后面的版本中我们会持续优化监控体系，支持多点部署、分布式数据采集、查询汇总等。
 

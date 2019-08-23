@@ -8,7 +8,7 @@ chapter: true
 
 ## 集群监控报警
 
-主要介绍的是Raibond监控报警体系中对节点监控，各服务组件监控及应用服务监控
+主要介绍的是Gitee监控报警体系中对节点监控，各服务组件监控及应用服务监控
 
 {{% children showhidden="true" description="true" style="h4"  %}}
 

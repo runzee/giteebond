@@ -7,7 +7,7 @@ description: 节点组件配置说明及组件健康检查说明
 hidden: true
 ---
 
-目前Rainbond绝大多数组件都是由node维护，即由node生成服务的配置文件并启动。目前所有关于rainbond服务(除node外)的配置文件目录：`/opt/rainbond/conf`
+目前Gitee绝大多数组件都是由node维护，即由node生成服务的配置文件并启动。目前所有关于rainbond服务(除node外)的配置文件目录：`/opt/rainbond/conf`
 
 ### 服务配置说明
 

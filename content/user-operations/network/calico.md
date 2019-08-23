@@ -3,7 +3,7 @@ title: "Calico网络"
 date: 2019-03-11T12:50:54+08:00
 draft: false
 weight: 1502
-description: Rainbond默认使用Calico
+description: Gitee默认使用Calico
 hidden: true
 ---
 

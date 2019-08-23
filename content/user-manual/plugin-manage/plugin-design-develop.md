@@ -1,6 +1,6 @@
 ---
 title: 插件设计与开发
-description: Rainbond应用插件的开发文档
+description: Gitee应用插件的开发文档
 hidden: true
 weight: 8003
 ---

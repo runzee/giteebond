@@ -1,6 +1,6 @@
 ---
 title: grctl
-description: Rainbond CLI工具集
+description: Gitee CLI工具集
 hidden: true
 ---
 

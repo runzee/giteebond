@@ -5,7 +5,7 @@ chapter: true
 ---
 
 {{% notice note %}}
-当安装使用 Rainbond 遇到问题时，请先参考本篇文档快速索引部分。如果问题未解决，请按要求收集必要的信息通过[社区(用户帮助)](https://t.goodrain.com/)或者[Github](https://github.com/goodrain) 提供给Rainbond开发者。尽可能提供具体信息，方便排查问题。
+当安装使用 Gitee 遇到问题时，请先参考本篇文档快速索引部分。如果问题未解决，请按要求收集必要的信息通过[社区(用户帮助)](https://t.goodrain.com/)或者[Github](https://github.com/goodrain) 提供给Rainbond开发者。尽可能提供具体信息，方便排查问题。
 
 ```yaml
 # 参考模板

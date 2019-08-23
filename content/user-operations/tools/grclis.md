@@ -1,6 +1,6 @@
 ---
 title: grclis
-description: Rainbond grclis
+description: Gitee grclis
 hidden: true
 ---
 
@@ -18,10 +18,10 @@ grclis stop
 #### 更新服务
 
 ```
-# 更新Rainbond所有组件
+# 更新Gitee所有组件
 grclis upgrade all
 # 更新node
 grclis upgrade node
-# 更新Rainbond某组件
+# 更新Gitee某组件
 grclis upgrade <组件>
 ```

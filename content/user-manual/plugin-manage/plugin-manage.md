@@ -1,6 +1,6 @@
 ---
 title: 应用插件的定义和分类
-description: Rainbond应用插件的定义和分类说明文档
+description: Gitee应用插件的定义和分类说明文档
 hidden: true
 weight: 8001
 ---

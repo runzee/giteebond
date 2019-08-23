@@ -7,7 +7,7 @@ hidden: true
 
 ### Rainbond与Kubernetes集群的关系
 
-Kubernetes是Rainbond调度和运行应用的基础平台，5.0版本开始Rainbond与Kubernetes进行了完全的解耦合以支持更多的Kubernetes版本。
+Kubernetes是Gitee调度和运行应用的基础平台，5.0版本开始Rainbond与Kubernetes进行了完全的解耦合以支持更多的Kubernetes版本。
 
 #### Kubernetes集群要求
 
