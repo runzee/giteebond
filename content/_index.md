@@ -7,23 +7,23 @@ pre = "<b>1. </b>"
 # Gitee文档中心
 
 <div class="item">
-    <h4><a href="./quick-start/rainbond_overview/">Rainbond简介</a></h4>
-    <p>Rainbond是什么？用在什么场景？</p>
+    <h4><a href="./quick-start/rainbond_overview/">Gitee简介</a></h4>
+    <p>Gitee是什么？用在什么场景？</p>
 </div>
 
 <div class="item">
-    <h4><a href="./quick-start/rainbond_install/">安装Rainbond</a></h4>
-    <p>跟着安装文档部署Rainbond</p>
+    <h4><a href="./quick-start/rainbond_install/">安装Gitee</a></h4>
+    <p>跟着安装文档部署Gitee</p>
 </div>
 
 <div class="item">
     <h4><a href="./user-manual/">平台使用手册</a></h4>
-    <p>系统的呈现Rainbond平台的功能使用方式</p>
+    <p>系统的呈现Gitee平台的功能使用方式</p>
 </div>
 
 <div class="item">
     <h4><a href="./user-operations/">运维手册</a></h4>
-    <p>运维维护生产环境就绪的Rainbond集群</p>
+    <p>运维维护生产环境就绪的Gitee集群</p>
 </div>
 
 <div class="item">
