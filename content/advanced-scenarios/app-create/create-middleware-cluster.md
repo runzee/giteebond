@@ -1,6 +1,6 @@
 ---
 title: 部署Mysql主从集群应用
-Description: "基于Rainbond部署Mysql主从集群应用"
+Description: "基于Gitee部署Mysql主从集群应用"
 hidden: true
 ---
 

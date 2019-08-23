@@ -1,6 +1,6 @@
 ---
 title: 日志管理
-description: Rainbond服务日志的查询和管理
+description: Gitee服务日志的查询和管理
 hidden: true
 weight: 5003
 ---

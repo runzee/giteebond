@@ -1,6 +1,6 @@
 ---
 Title: "Maven 多模块源码构建"
-Description: "Rainbond Java源码多模块构建"
+Description: "Gitee Java源码多模块构建"
 Hidden: true
 Weight: 22004
 ---

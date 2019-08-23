@@ -1,6 +1,6 @@
 ---
 title: 基础操作
-description: 讲述Rainbond应用的基础操作
+description: 讲述Gitee应用的基础操作
 hidden: true
 Weight: 4003
 ---

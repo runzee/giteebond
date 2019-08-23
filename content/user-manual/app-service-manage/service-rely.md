@@ -1,6 +1,6 @@
 ---
 title: 服务依赖
-description: Rainbond服务依赖关系和依赖连接信息管理
+description: Gitee服务依赖关系和依赖连接信息管理
 weight: 5009
 hidden: true
 ---

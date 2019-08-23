@@ -1,8 +1,8 @@
 ---
-Title: 快速部署Gitlab源码管理服务
-Description: "基于Rainbond快速部署生产可用的源代码管理服务"
+Title: 快速部署gitee源码管理服务
+Description: "基于Gitee快速部署生产可用的源代码管理服务"
 Hidden: true
-Key: "rainbond 应用部署 gitlab 开始部署"
+Key: "gitee 应用部署 gitlab 开始部署"
 ---
 
 ### Gitlab简介

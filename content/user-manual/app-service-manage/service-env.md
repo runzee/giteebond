@@ -1,6 +1,6 @@
 ---
 title: 高级环境变量配置
-description: Rainbond服务高级环境变量配置文档
+description: Gitee服务高级环境变量配置文档
 hidden: true
 weight: 5030
 ---

@@ -1,6 +1,6 @@
 ---
 title: 服务伸缩
-description: Rainbond服务的水平伸缩和垂直伸缩文档
+description: Gitee服务的水平伸缩和垂直伸缩文档
 weight: 5007
 hidden: true
 ---

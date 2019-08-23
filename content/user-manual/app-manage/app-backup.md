@@ -1,6 +1,6 @@
 ---
 title: 应用备份管理
-description: Rainbond应用全量备份、迁移和恢复
+description: Gitee应用全量备份、迁移和恢复
 hidden: true
 ---
 

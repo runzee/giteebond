@@ -1,6 +1,6 @@
 ---
 title: 性能分析
-description: Rainbond服务性能分析功能解读
+description: Gitee服务性能分析功能解读
 hidden: true
 weight: 5005
 ---

@@ -1,7 +1,7 @@
 ---
 Title: "Jenkins与Rainbond对接部署应用"
 Hidden: true
-Description: "Rainbond对接Jenkins基于Git仓库与镜像构建的服务进行自动CI、CD实践"
+Description: "Gitee对接Jenkins基于Git仓库与镜像构建的服务进行自动CI、CD实践"
 Weight: 22001
 ---
 

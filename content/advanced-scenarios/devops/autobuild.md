@@ -1,7 +1,7 @@
 ---
 Title: "基于源码的自动CI流程创建"
 Hidden: true
-Description: "Rainbond基于Git仓库源码构建的服务进行自动CI实践"
+Description: "Gitee基于Git仓库源码构建的服务进行自动CI实践"
 Weight: 22001
 ---
 

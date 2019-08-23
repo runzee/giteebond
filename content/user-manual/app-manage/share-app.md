@@ -1,6 +1,6 @@
 ---
 title: 应用分享与发布
-description: 讲解Rainbond应用发布到应用市场功能说明
+description: 讲解Gitee应用发布到应用市场功能说明
 hidden: true
 ---
 

@@ -1,6 +1,6 @@
 ---
 Title: "离线环境下的Java源码构建"
-Description: "Rainbond离线环境下的Java源码构建的基础环境搭建"
+Description: "Gitee离线环境下的Java源码构建的基础环境搭建"
 Hidden: true
 Weight: 22003
 ---

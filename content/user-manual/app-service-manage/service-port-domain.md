@@ -1,6 +1,6 @@
 ---
 title: 服务端口
-description: Rainbond服务端口和注册策略管理文档
+description: Gitee服务端口和注册策略管理文档
 weight: 5013
 hidden: true
 ---

@@ -1,6 +1,6 @@
 ---
 title: 服务基础操作
-description: Rainbond服务基础生命周期操作说明文档
+description: Gitee服务基础生命周期操作说明文档
 weight: 5001
 hidden: true
 ---

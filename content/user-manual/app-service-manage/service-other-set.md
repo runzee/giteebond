@@ -1,6 +1,6 @@
 ---
 title: 服务其他设置
-description: Rainbond服务基础信息，环境变量，健康检测，用户权限等属性的设置文档
+description: Gitee服务基础信息，环境变量，健康检测，用户权限等属性的设置文档
 weight: 5021
 hidden: true
 ---

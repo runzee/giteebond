@@ -1,6 +1,6 @@
 ---
 title: 服务创建流程
-description: Rainbond服务创建流程指南
+description: Gitee服务创建流程指南
 toc: true
 weight: 3102
 ---

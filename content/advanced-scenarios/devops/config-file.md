@@ -1,10 +1,10 @@
 ---
 title: 服务配置文件实践
-Description: Rainbond为服务添加配置文件的方法实践
+Description: Gitee为服务添加配置文件的方法实践
 Hidden: true
 ---
 
-这篇文章将会介绍 Rainbond 中的配置文件, 并且会以 mariadb 为例, 演示配置文件的使用.
+这篇文章将会介绍 Gitee 中的配置文件, 并且会以 mariadb 为例, 演示配置文件的使用.
 
 ### 配置文件的介绍
 

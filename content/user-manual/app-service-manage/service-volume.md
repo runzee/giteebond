@@ -1,6 +1,6 @@
 ---
 title: 服务存储设置
-description: Rainbond服务存储的管理文档
+description: Gitee服务存储的管理文档
 weight: 5011
 hidden: true
 ---

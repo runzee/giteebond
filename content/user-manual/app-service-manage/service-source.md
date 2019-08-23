@@ -1,6 +1,6 @@
 ---
 title: 服务构建源设置
-description: Rainbond服务的构建源设置和各语言编译参数配置文档
+description: Gitee服务的构建源设置和各语言编译参数配置文档
 weight: 5017
 hidden: true
 ---

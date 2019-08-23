@@ -1,6 +1,6 @@
 ---
 title: 服务容器终端
-description: Rainbond服务运行容器终端的进入和操作方式文档
+description: Gitee服务运行容器终端的进入和操作方式文档
 hidden: true
 weight: 5031
 ---
