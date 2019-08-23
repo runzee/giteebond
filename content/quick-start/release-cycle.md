@@ -1,6 +1,6 @@
 ---
 title: 版本发布周期
-description: Rainbond版本发布周期
+description: Gitee版本发布周期
 hidden: true
 ---
 

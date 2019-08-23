@@ -8,4 +8,4 @@ pre = "<b>2. </b>"
 
 # 快速开始
 
-本章节将从Rainbond的[设计思想](/architecture/design-concept/)，[技术架构](/architecture/architecture/)等多方面带你了解Rainbond。
+本章节将从Gitee的[设计思想](/architecture/design-concept/)，[技术架构](/architecture/architecture/)等多方面带你了解Rainbond。

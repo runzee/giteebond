@@ -1,6 +1,6 @@
 ---
 title: 设计思想
-describe: Rainbond设计的由来和理念
+describe: Gitee设计的由来和理念
 weight: 200
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "平台安装"
 weight: 104
-description: "Rainbond安装教程引导"
+description: "Gitee安装教程引导"
 ---
 
 #### 快速安装Rainbond

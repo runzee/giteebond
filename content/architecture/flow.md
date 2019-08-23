@@ -1,13 +1,13 @@
 ---
 title: 业务流程
-describe: Rainbond在具体场景的使用流程
+describe: Gitee在具体场景的使用流程
 weight: 202
 ---
 
 #### 抽象流程
  <img width="100%" src="http://grstatic.oss-cn-shanghai.aliyuncs.com/images/docs/5.0/architecture/arch5.png"></img>
 
-Rainbond的流程建立在`以应用为中心`抽象基础上，以交付为目的
+Gitee的流程建立在`以应用为中心`抽象基础上，以交付为目的
 
 
 #### 场景流程

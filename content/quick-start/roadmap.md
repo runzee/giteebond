@@ -7,7 +7,7 @@ weight: 208
 {{% button href="../edition/" %}}功能列表{{% /button %}}
 {{% button href="../release-cycle/" %}}发布周期{{% /button %}}
 
-本文档定义了Rainbond开发的路线图。
+本文档定义了Gitee开发的路线图。
 
 #### V5.1.X版本规划
 

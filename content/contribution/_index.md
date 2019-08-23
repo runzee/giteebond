@@ -3,9 +3,9 @@ Title: 贡献
 pre: "<b>7. </b>"
 ---
 
-Rainbond项目的终极目标是建设成为"企业应用操作系统",因此参与Rainbond项目除了可以参与项目本身以外，同时也可以贡献Rainbond应用生态。
+Gitee项目的终极目标是建设成为"企业应用操作系统",因此参与Rainbond项目除了可以参与项目本身以外，同时也可以贡献Rainbond应用生态。
 
-### 参与Rainbond项目
+### 参与Gitee项目
 
 * 了解Rainbond[设计思想](/architecture/design-concept/)和[技术架构](/architecture/architecture/)
 * 了解Rainbond涉及的开源项目
@@ -18,7 +18,7 @@ Rainbond项目的终极目标是建设成为"企业应用操作系统",因此参
 * 加入Rainbond社区 [社区](https://t.goodrain.com) 参与定期举行的开发者讨论
 * 提交的PR，积累一定数量的PR后加入到开发者兴趣小组
 
-### 贡献Rainbond应用
+### 贡献Gitee应用
 
-如果你是Rainbond的使用用户，你一定体验到了Rainbond应用市场带来的便利，我们非常欢迎你将你创造的有用的、有趣的应用或解决方案发布到社区。
+如果你是Gitee的使用用户，你一定体验到了Gitee应用市场带来的便利，我们非常欢迎你将你创造的有用的、有趣的应用或解决方案发布到社区。
 [贡献应用参考文档](http://t.goodrain.com/t/rainbond/486)

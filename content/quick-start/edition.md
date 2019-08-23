@@ -1,13 +1,13 @@
 ---
 title: 功能列表
-describe: Rainbond功能列表
+describe: Gitee功能列表
 weight: 204
 ---
 
 {{% button href="/quick-start/roadmap/" %}}开发计划{{% /button %}}
 {{% button href="/quick-start/release-cycle/" %}}发布周期{{% /button %}}
 
-本文档列举`Rainbond开源版`具备的重点基础功能，随着版本升级本文档列举不一定完全，如有疑问请于社区留言咨询。
+本文档列举`Gitee开源版`具备的重点基础功能，随着版本升级本文档列举不一定完全，如有疑问请于社区留言咨询。
 
 #### 应用的部署
 

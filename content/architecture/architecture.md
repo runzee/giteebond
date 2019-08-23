@@ -1,10 +1,10 @@
 ---
 title: 技术架构
 weight: 206
-describe: Rainbond 技术架构
+describe: Gitee 技术架构
 ---
 
-#### Rainbond技术架构
+#### Gitee技术架构
 
 <img width="100%" src="https://grstatic.oss-cn-shanghai.aliyuncs.com/images/docs/5.0/architecture/architecture.svg"></img>
 
