@@ -9,6 +9,10 @@ params:
   editURL: "https://gitee.com/zeef/rainbond-docs/edit/master/content/"
   showVisitedLinks: true
   disableShortcutsTitle: false
+  # Algolia search credentials — supply via environment or CI; do not hardcode secrets here.
+  # algolia_appId: ""
+  # algolia_apiKey: ""
+  # algolia_indexName: ""
 outputs:
   home: 
     - HTML

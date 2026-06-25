@@ -3,3 +3,9 @@ public
 Desktop.ini
 .idea/
 .vscode/
+
+# Prevent secrets from being committed
+.env
+.env.*
+*.pem
+*.key
