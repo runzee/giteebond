@@ -3,9 +3,8 @@
     <input data-search-input id="search-by" type="search" placeholder="{{T "Search-placeholder"}}">
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
-{{ $assetBusting := not .Site.Params.disableAssetsBusting }}
-<script type="text/javascript" src="{{"js/algoliasearch.min.js" | relURL}}{{ if $assetBusting }}?{{ now.Unix }}{{ end }}"></script>
-<script type="text/javascript" src="{{"js/auto-complete.js" | relURL}}{{ if $assetBusting }}?{{ now.Unix }}{{ end }}"></script>
+{{ partial "script.html" (dict "Site" .Site "path" "js/algoliasearch.min.js") }}
+{{ partial "script.html" (dict "Site" .Site "path" "js/auto-complete.js") }}
 <script type="text/javascript">
     {{ if .Site.IsMultiLingual }}
         var baseurl = "{{.Site.BaseURL}}{{.Site.LanguagePrefix}}";
@@ -16,4 +15,5 @@
     var defined_algolia_apiKey = "{{ .Site.Params.algolia_apiKey | default "" }}";
     var defined_algolia_indexName = "{{ .Site.Params.algolia_indexName | default "" }}";
 </script>
-<script type="text/javascript" src="{{"js/search.js" | relURL}}{{ if $assetBusting }}?{{ now.Unix }}{{ end }}"></script>
+{{ partial "script.html" (dict "Site" .Site "path" "js/search-utils.js") }}
+{{ partial "script.html" (dict "Site" .Site "path" "js/search.js") }}

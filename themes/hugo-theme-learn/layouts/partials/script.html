@@ -1,0 +1,2 @@
+{{- $assetBusting := not .Site.Params.disableAssetsBusting -}}
+<script src="{{.path | relURL}}{{ if $assetBusting }}?{{ now.Unix }}{{ end }}"></script>

@@ -93,19 +93,14 @@ jQuery(document).ready(function() {
     $('#sidebar .highlightable').perfectScrollbar();
     setMenuHeight();
 
-    jQuery('#overlay').on('click', function() {
+    function toggleSidebar() {
         jQuery(document.body).toggleClass('sidebar-hidden');
         sidebarStatus = (jQuery(document.body).hasClass('sidebar-hidden') ? 'closed' : 'open');
-
         return false;
-    });
+    }
 
-    jQuery('[data-sidebar-toggle]').on('click', function() {
-        jQuery(document.body).toggleClass('sidebar-hidden');
-        sidebarStatus = (jQuery(document.body).hasClass('sidebar-hidden') ? 'closed' : 'open');
-
-        return false;
-    });
+    jQuery('#overlay').on('click', toggleSidebar);
+    jQuery('[data-sidebar-toggle]').on('click', toggleSidebar);
     jQuery('[data-clear-history-toggle]').on('click', function() {
         sessionStorage.clear();
         location.reload();
@@ -251,23 +246,12 @@ jQuery(document).ready(function() {
     $('#body-inner a:not(:has(img)):not(.btn):not(a[rel="footnote"])').addClass('highlight');
 
     var touchsupport = ('ontouchstart' in window) || (navigator.maxTouchPoints > 0) || (navigator.msMaxTouchPoints > 0)
-    if (!touchsupport){ // browser doesn't support touch
-        $('#toc-menu').hover(function() {
-            $('.progress').stop(true, false, true).fadeToggle(100);
-        });
-
-        $('.progress').hover(function() {
-            $('.progress').stop(true, false, true).fadeToggle(100);
-        });
+    var defined_event = touchsupport ? 'click' : 'mouseenter mouseleave';
+    function toggleProgress() {
+        $('.progress').stop(true, false, true).fadeToggle(100);
     }
-    if (touchsupport){ // browser does support touch
-        $('#toc-menu').click(function() {
-            $('.progress').stop(true, false, true).fadeToggle(100);
-        });
-        $('.progress').click(function() {
-            $('.progress').stop(true, false, true).fadeToggle(100);
-        });
-    }
+    $('#toc-menu').on(defined_event, toggleProgress);
+    $('.progress').on(defined_event, toggleProgress);
 
     /** 
     * Fix anchor scrolling that hides behind top nav bar

@@ -34,20 +34,8 @@ images.each(function(index){
     var h = o["height"];
     var w = o["width"];
     var c = o["classes"];
-    image.css("width", function() {
-      if (typeof w !== "undefined") {
-        return w;
-      } else {
-        return "auto";
-      }
-    });
-    image.css("height", function() {
-      if (typeof h !== "undefined") {
-        return h;
-      } else {
-        return "auto";
-      }
-    });
+    image.css("width", w || "auto");
+    image.css("height", h || "auto");
     if (typeof c !== "undefined") {
       var classes = c.split(',');
       for (i = 0; i < classes.length; i++) {
