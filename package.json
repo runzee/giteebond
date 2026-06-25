@@ -1,0 +1,14 @@
+{
+  "name": "giteebond-docs",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Giteebond documentation site",
+  "scripts": {
+    "test": "jest --verbose",
+    "test:coverage": "jest --coverage"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0"
+  }
+}
