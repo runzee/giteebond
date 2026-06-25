@@ -12,10 +12,11 @@ function search(term, response) {
     query: term,
   }, function(err, re){
     if (err) {
-      console.log(err)
-      return
+      console.error('Algolia search error:', err.message || err);
+      response([]);
+      return;
     }
-    response(re.hits)
+    response(re.hits);
   })
 }
 

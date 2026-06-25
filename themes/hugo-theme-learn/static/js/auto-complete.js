@@ -105,7 +105,8 @@ var autoComplete = (function(){
             }, that.sc);
 
             that.blurHandler = function(){
-                try { var over_sb = document.querySelector('.autocomplete-suggestions:hover'); } catch(e){ var over_sb = 0; }
+                var over_sb;
+                try { over_sb = document.querySelector('.autocomplete-suggestions:hover'); } catch(e){ console.warn('autocomplete blur: :hover selector not supported:', e.message); over_sb = 0; }
                 if (!over_sb) {
                     that.last_val = that.value;
                     that.sc.style.display = 'none';
