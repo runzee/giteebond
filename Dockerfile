@@ -1,4 +1,4 @@
-FROM alpine:3.9 as builder
+FROM alpine:3.20 as builder
 
 # install hugo
 RUN set -e && \
@@ -15,10 +15,7 @@ ARG LOCATION="/docs/"
 ARG BASEURL="https://www.rainbond.com${LOCATION}"
 RUN hugo --baseURL=${BASEURL}
 
-FROM nginx:1.15.9-alpine as runtime
+FROM nginx:1.27-alpine as runtime
 ARG LOCATION="/docs/"
 COPY --from=builder /app/public /usr/share/nginx/html${LOCATION}
 COPY nginx.conf /etc/nginx/nginx.conf
-
-
-

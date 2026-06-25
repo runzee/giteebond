@@ -71,6 +71,15 @@ function search(query) {
         }).filter(function(item) { return item !== undefined; });
 }
 
+function escapeHtml(str) {
+  if (!str) return "";
+  return String(str)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
+}
 // Let's get started
 initLunr();
 $( document ).ready(function() {
@@ -89,13 +98,13 @@ $( document ).ready(function() {
                     term+"(?:\\s?(?:[\\w]+)\\s?){0,"+numContextWords+"}");
             item.context = text;
             return '<div class="autocomplete-suggestion" ' +
-                'data-term="' + term + '" ' +
-                'data-title="' + item.title + '" ' +
-                'data-uri="'+ item.uri + '" ' +
-                'data-context="' + item.context + '">' +
-                '» ' + item.title +
+                'data-term="' + escapeHtml(term) + '" ' +
+                'data-title="' + escapeHtml(item.title) + '" ' +
+                'data-uri="'+ escapeHtml(item.uri) + '" ' +
+                'data-context="' + escapeHtml(item.context) + '">' +
+                '» ' + escapeHtml(item.title) +
                 '<div class="context">' +
-                (item.context || '') +'</div>' +
+                escapeHtml(item.context || '') +'</div>' +
                 '</div>';
         },
         /* onSelect callback fires when a search suggestion is chosen */
