@@ -64,6 +64,11 @@ $(document).ready(function(){
 
 
 jQuery(document).ready(function() {
+  if (typeof Clipboard === 'undefined') {
+    console.error('Clipboard library not loaded; anchor copy buttons disabled');
+    return;
+  }
+
   // Add link button for every
   var text, clip = new Clipboard('.anchor');
   $("h1~h2,h1~h3,h1~h4,h1~h5,h1~h6").append(function(index, html){
@@ -83,6 +88,11 @@ jQuery(document).ready(function() {
   clip.on('success', function(e) {
       e.clearSelection();
       $(e.trigger).attr('aria-label', 'Link copied to clipboard!').addClass('tooltipped tooltipped-s');
+  });
+
+  clip.on('error', function(e) {
+      console.error('Clipboard copy failed for action:', e.action);
+      $(e.trigger).attr('aria-label', 'Press Ctrl+C to copy').addClass('tooltipped tooltipped-s');
   });
 
 });

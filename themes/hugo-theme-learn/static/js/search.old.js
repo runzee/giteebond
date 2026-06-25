@@ -59,12 +59,16 @@ function initLunr() {
  * @return {Array}  results
  */
 function search(query) {
+    if (!lunrIndex) {
+        console.error('Search index not yet initialized');
+        return [];
+    }
     // Find the item in our index corresponding to the lunr one to have more info
     return lunrIndex.search(query).map(function(result) {
             return pagesIndex.filter(function(page) {
                 return page.uri === result.ref;
             })[0];
-        });
+        }).filter(function(item) { return item !== undefined; });
 }
 
 // Let's get started
